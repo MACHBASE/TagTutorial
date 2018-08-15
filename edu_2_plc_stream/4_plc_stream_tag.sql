@@ -1,3 +1,5 @@
+EXEC STREAM_CREATE(event_v0, 'insert into tag select ''MTAG_V00'', tm, v0 from plc_tag_table;');
+EXEC STREAM_CREATE(event_v1, 'insert into tag select ''MTAG_V00'', tm, v1 from plc_tag_table;');
 EXEC STREAM_CREATE(event_c0, 'insert into tag select ''MTAG_C00'', tm, c0 from plc_tag_table;');
 EXEC STREAM_CREATE(event_c1, 'insert into tag select ''MTAG_C01'', tm, c1 from plc_tag_table;');
 EXEC STREAM_CREATE(event_c2, 'insert into tag select ''MTAG_C02'', tm, c2 from plc_tag_table;');
@@ -15,6 +17,8 @@ EXEC STREAM_CREATE(event_c13, 'insert into tag select ''MTAG_C13'', tm, c13 from
 EXEC STREAM_CREATE(event_c14, 'insert into tag select ''MTAG_C14'', tm, c14 from plc_tag_table;');
 EXEC STREAM_CREATE(event_c15, 'insert into tag select ''MTAG_C15'', tm, c15 from plc_tag_table;');
 
+EXEC STREAM_START(event_v0);
+EXEC STREAM_START(event_v1);
 EXEC STREAM_START(event_c0);
 EXEC STREAM_START(event_c1);
 EXEC STREAM_START(event_c2);
