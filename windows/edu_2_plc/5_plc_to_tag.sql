@@ -1,21 +1,19 @@
-create table plc_tag_table(
-tm datetime,
-V0 DOUBLE ,
-V1 DOUBLE ,
-C0 DOUBLE ,
-C1 DOUBLE ,
-C2 DOUBLE ,
-C3 DOUBLE ,
-C4 DOUBLE ,
-C5 DOUBLE,
-C6 DOUBLE ,
-C7 DOUBLE ,
-C8 DOUBLE ,
-C9 DOUBLE ,
-C10 DOUBLE ,
-C11 DOUBLE ,
-C12 DOUBLE ,
-C13 DOUBLE ,
-C14 DOUBLE ,
-C15 DOUBLE
-);
+insert into tag select 'MTAG_V00', tm, v0 from plc_tag_table;
+insert into tag select 'MTAG_V01', tm, v1 from plc_tag_table;
+insert into tag select 'MTAG_C00', tm, c0 from plc_tag_table;
+insert into tag select 'MTAG_C01', tm, c1 from plc_tag_table;
+insert into tag select 'MTAG_C02', tm, c2 from plc_tag_table;
+insert into tag select 'MTAG_C03', tm, c3 from plc_tag_table;
+insert into tag select 'MTAG_C04', tm, c4 from plc_tag_table;
+insert into tag select 'MTAG_C05', tm, c5 from plc_tag_table;
+insert into tag select 'MTAG_C06', tm, c6 from plc_tag_table;
+insert into tag select 'MTAG_C07', tm, c7 from plc_tag_table;
+insert into tag select 'MTAG_C08', tm, c8 from plc_tag_table;
+insert into tag select 'MTAG_C09', tm, c9 from plc_tag_table;
+insert into tag select 'MTAG_C10', tm, c10 from plc_tag_table;
+insert into tag select 'MTAG_C11', tm, c11 from plc_tag_table;
+insert into tag select 'MTAG_C12', tm, c12 from plc_tag_table;
+insert into tag select 'MTAG_C13', tm, c13 from plc_tag_table;
+insert into tag select 'MTAG_C14', tm, c14 from plc_tag_table;
+insert into tag select 'MTAG_C15', tm, c15 from plc_tag_table;
+
