@@ -1,0 +1,19 @@
+insert into tag select 'MTAG_V00', tm, v0 from plc_tag_table;
+insert into tag select 'MTAG_V01', tm, v1 from plc_tag_table;
+insert into tag select 'MTAG_C00', tm, c0 from plc_tag_table;
+insert into tag select 'MTAG_C01', tm, c1 from plc_tag_table;
+insert into tag select 'MTAG_C02', tm, c2 from plc_tag_table;
+insert into tag select 'MTAG_C03', tm, c3 from plc_tag_table;
+insert into tag select 'MTAG_C04', tm, c4 from plc_tag_table;
+insert into tag select 'MTAG_C05', tm, c5 from plc_tag_table;
+insert into tag select 'MTAG_C06', tm, c6 from plc_tag_table;
+insert into tag select 'MTAG_C07', tm, c7 from plc_tag_table;
+insert into tag select 'MTAG_C08', tm, c8 from plc_tag_table;
+insert into tag select 'MTAG_C09', tm, c9 from plc_tag_table;
+insert into tag select 'MTAG_C10', tm, c10 from plc_tag_table;
+insert into tag select 'MTAG_C11', tm, c11 from plc_tag_table;
+insert into tag select 'MTAG_C12', tm, c12 from plc_tag_table;
+insert into tag select 'MTAG_C13', tm, c13 from plc_tag_table;
+insert into tag select 'MTAG_C14', tm, c14 from plc_tag_table;
+insert into tag select 'MTAG_C15', tm, c15 from plc_tag_table;
+
