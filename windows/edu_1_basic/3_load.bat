@@ -1,2 +1,0 @@
-start "MTAG_C00.csv" csvimport -t TAG -d 3_MTAG_C00.csv -F "time YYYY-MM-DD HH24:MI:SS mmm:uuu:nnn" -l error_C00.log
-start "MTAG_C01.csv" csvimport -t TAG -d 3_MTAG_C01.csv -F "time YYYY-MM-DD HH24:MI:SS mmm:uuu:nnn" -l error_C01.log
